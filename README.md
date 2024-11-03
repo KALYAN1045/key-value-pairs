@@ -152,5 +152,4 @@ The server will run on [http://localhost:3000](http://localhost:3000).
    - For file-based persistence, system paths and access permissions may vary. The default path uses the user's home directory to enhance compatibility across OSs.
 
 3. **Limitations**:
-   - **Ephemeral Storage on Vercel**: Vercel’s serverless functions do not support persistent file storage, requiring an external database like MongoDB for permanent storage.
    - **Memory Constraints**: For large datasets, file-based storage becomes impractical due to memory limitations. MongoDB or other databases are recommended for scalability.

@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
   const [batchInput, setBatchInput] = useState("");
 
-  const API_URL = "https://key-value-pairs-backend.vercel.app";
+  const API_URL = "http://localhost:5000";
 
   useEffect(() => {
     if (error) {
